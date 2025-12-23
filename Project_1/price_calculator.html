@@ -1,0 +1,65 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width">
+
+    <title>Project 1 Price Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="style_price_calculator.css" rel="stylesheet" />
+    <script src="js/data.js" type="text/JavaScript"></script>
+    <script src="js/functions.js" type="text/JavaScript"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="topbar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="servicii.html">SERVICES</a></li>
+                <li><a href="preturi.html">PRICES</a></li>
+                <li><a href="contacte.html">CONTACTS</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table class="table-fill">
+        <thead>
+            <tr>
+                <th colspan="2">Product</th>
+                <th>Number of rooms</th>
+                <th>Price per room</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script src="js/home.js" type="text/JavaScript"></script>
+
+            <tr class="totals">
+                <td colspan="4">Subtotal</td>
+                <td>
+                    <script>outputCurrency(subtotal);</script>
+                </td>
+            </tr>
+            <tr class="totals">
+                <td colspan="4">Tax</td>
+                <td>
+                    <script>outputCurrency(tax);</script>
+                </td>
+            </tr>
+            <tr class="totals">
+                <td colspan="4">Shipping</td>
+                <td>
+                    <script>outputCurrency(shipping);</script>
+                </td>
+            </tr>
+            <tr class="totals">
+                <td colspan="4" class="focus">Grand Total</td>
+                <td class="focus">
+                    <script>outputCurrency(grand);</script>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

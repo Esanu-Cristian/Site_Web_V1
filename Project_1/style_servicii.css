@@ -1,0 +1,112 @@
+body {
+    background-image: url("images/servicii_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0em 4em 0em 4em;
+}
+
+nav {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: left 10px top 10px;
+    padding-left: 70px;
+    padding-top: 25px;
+    height: 65px;
+    font-weight: 700;
+}
+
+header {
+    margin-left: 20px;
+}
+
+    header ul {
+        list-style-type: none;
+    }
+
+        header ul li {
+            display: inline-block;
+            margin-left: 30px;
+        }
+
+nav a:link, nav a:visited {
+    color: #0770db;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #008c02;
+}
+
+article {
+    background-color: #6bd7d2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+    article p {
+        margin: 1em 2em;
+    }
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #3072f1;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hero {
+    width: 100%;
+}
+
+#details {
+    font-size: 1.25rem;
+    color: #008c02;
+    text-align: center;
+}
+
+blockquote {
+    margin: 0.5em 4em;
+    background-color: #737873;
+    border: 1pt solid #ececec;
+    padding: 1em 2em;
+    font-size: 1.25rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+#buttons {
+    margin: 2em 2em;
+}
+
+    #buttons a {
+        border: 1pt solid #ececec;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+
+        #buttons a:link, #buttons a:visited {
+            color: #9600b4;
+        }
+
+        #buttons a:hover {
+            color: #2eff00;
+            background-color: #ff7230;
+        }
+
+footer {
+    background-color: #29293a;
+    color: white;
+    padding: 1em 0;
+    margin: 0;
+}
+
+    footer a:link, footer a:visited {
+        color: #008c02;
+        text-decoration: none;
+    }

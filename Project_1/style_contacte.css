@@ -1,0 +1,118 @@
+body {
+    margin: 0em 4em 0em 4em;
+    background-image: url("images/aboutus_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+header {
+    min-height: 100px;
+    width: 100%;
+    padding: 5px;
+}
+
+nav {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: left 10px top 10px;
+    padding-left: 70px;
+    padding-top: 25px;
+    height: 65px;
+    font-weight: 700;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+    header ul li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+nav a:link, nav a:visited {
+    color: #0770db;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #008c02;
+}
+
+header div a:link, header div a:visited {
+    display: inline-block;
+    background-color: #0770db;
+    color: white;
+    margin-top: 10px;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+article {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+    article p {
+        margin: 1em 2em;
+        font-size: 1.1rem;
+    }
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #4dbeff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hero {
+    width: 100%;
+}
+
+#details {
+    font-size: 1.25rem;
+    color: #004ead;
+    text-align: center;
+}
+
+blockquote {
+    margin: 0.5em 4em;
+    background-color: #f9f9f9;
+    border: 1pt solid #ececec;
+    padding: 1em 2em;
+    font-size: 1.35rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+#buttons {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+    #buttons a {
+        border: 1pt solid #ececec;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+
+        #buttons a:hover {
+            color: #0033a3;
+            background-color: #63ff2a;
+        }
+
+footer {
+    background-color: #29293a;
+    color: white;
+    padding: 1em 0;
+    margin: 0;
+}

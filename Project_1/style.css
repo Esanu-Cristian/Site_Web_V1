@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body, section, header, div, p, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/main_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+header {
+    min-height: 500px;
+    width: 100%;
+    padding: 5px;
+}
+
+nav {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: left 10px top 10px;
+    padding-left: 70px;
+    padding-top: 25px;
+    height: 65px;
+    font-weight: 700;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+    header ul li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+nav a:hover {
+    color: #008c02;
+}
+
+header div {
+    margin: 80px 100px;
+    color: #a3bad1;
+}
+
+header h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+header p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+header div a:link, header div a:visited {
+    display: inline-block;
+    background-color: #0770db;
+    color: white;
+    margin-top: 10px;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header div a:hover {
+    background-color: #008c02;
+}
+
+main {
+    padding: 20px 20px 0 20px;
+}
+
+section.card {
+    display: inline-block;
+    background-color: white;
+}

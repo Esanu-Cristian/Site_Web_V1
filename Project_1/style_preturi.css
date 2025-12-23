@@ -1,0 +1,194 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body, section, header, div, p, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/preturi_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-weight: 300;
+}
+
+nav {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: left 10px top 10px;
+    padding-left: 70px;
+    padding-top: 25px;
+    height: 65px;
+    font-weight: 700;
+}
+
+header {
+    margin-left: 20px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+    header ul li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+nav a:link, nav a:visited {
+    color: #0770db;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #008c02;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    padding: 10px 0;
+}
+
+main {
+    margin-top: 30px;
+}
+
+section {
+    width: 910px;
+    box-shadow: -1px -1px 7px 5px rgba(144,213,255,0.5);
+    margin: 0 auto;
+}
+
+.column {
+    display: inline-block;
+    background-color: #00dcff;
+    margin: 0;
+    width: 300px;
+}
+
+
+.featured {
+    background-color: #ff4b00cc;
+    color: #FFFFFF;
+}
+
+.column h3 {
+    font-size: 24px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    padding: 15px 0;
+}
+
+.first {
+    background-color: #5BB189;
+}
+
+.second {
+    background-color: indigo;
+}
+
+.third {
+    background-color: #3dff00;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.column ul {
+    list-style: none;
+}
+
+.column li {
+    padding: 25px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+    .column li:nth-child(2n) {
+        background-color: rgba(130, 135, 137, 0.35);
+    }
+
+    .column li span {
+        font-weight: 800;
+    }
+
+.column div {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.column a {
+    display: block;
+    padding: 12px 0 6px 0;
+    height: 50px;
+}
+
+    .column a:link, .column a:visited {
+        background-color: #3A6BA5;
+        color: white;
+        border-radius: 4px;
+        box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .column a:hover {
+        background-color: #437CBF;
+        color: white;
+    }
+
+#confidence {
+    margin-top: 40px;
+    padding: 30px;
+    width: 910px;
+    background-color: darkslategray;
+    color: white;
+}
+
+    #confidence h2 {
+        font-weight: 600;
+        font-size: 36px;
+    }
+
+    #confidence ul {
+        list-style-type: none;
+        margin-top: 10px;
+    }
+
+    #confidence li {
+        margin-top: 16px;
+        font-size: 18px;
+        font-weight: 400;
+        background: url(checkmark.svg) no-repeat;
+        background-size: 24px;
+        padding-left: 35px;
+        padding-top: 2px;
+    }
+
+    #confidence a:link, #confidence a:visited {
+        font-style: italic;
+        font-weight: 600;
+        color: #87CEFA;
+    }
